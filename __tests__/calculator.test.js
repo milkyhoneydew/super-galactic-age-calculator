@@ -9,4 +9,9 @@ describe('Calculator', () => {
     expect(spacePerson.marsAge).toEqual(141);
     expect(spacePerson.jupiterAge).toEqual(889.5);
   });
+
+  test('should determine how many years have passed since the inputted birthday age', () => {
+    const spacePerson = new Calculator(75);
+    expect(spacePerson.yearsSinceBirthday(50)).toEqual(25)
+  })
 });
