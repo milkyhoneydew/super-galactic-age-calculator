@@ -9,6 +9,10 @@ export class Calculator {
   };
 
   yearsSinceBirthday(birthday) {
-    return (this.age - birthday);
-  }
-};
+    return `${(this.age - birthday).toString()} Earth years have passed. 
+${this.mercuryAge - birthday} Mercury years have passed. 
+${this.venusAge - birthday} Venus years have passed. 
+${this.marsAge - birthday} Mars years have passed. 
+${this.jupiterAge - birthday} Jupiter years have passed.`
+  };
+}
