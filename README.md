@@ -19,11 +19,13 @@
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone the repository onto your machine.
+* Navigate to the Super Galactic Age Calculator folder.
+* Open a terminal or GitBash and install all packages with $ npm install
+* Build the project environment with $ npm run build
+* Start a development server using the commmand $ npm run start
+* Move into the src folder and lint files using $ npm run lint
+* To run tests with Jest use $ npm run test
 
 ## Known Bugs
 
