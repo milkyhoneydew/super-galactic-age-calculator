@@ -17,6 +17,6 @@ describe('Calculator', () => {
 
   test('should determine how many years have yet to pass until an inputted birthday age', () => {
     const spacePerson = new Calculator(75);
-    expect(spacePerson.yearsUntilBirthday(100)).toEqual("25 Earth years have yet to pass.")
+    expect(spacePerson.yearsUntilBirthday(100)).toEqual("25 Earth years have yet to pass. \n82 Mercury years have yet to pass. \n53.5 Venus years have yet to pass. \n-41 Mars years have yet to pass. \n-789.5 Jupiter years have yet to pass.")
   })
 });

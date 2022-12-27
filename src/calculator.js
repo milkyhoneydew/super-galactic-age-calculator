@@ -17,6 +17,10 @@ ${this.jupiterAge - birthday} Jupiter years have passed.`
   };
 
   yearsUntilBirthday(birthday) {
-    return `${(birthday - this.age).toString()} Earth years have yet to pass.`
+    return `${(birthday - this.age).toString()} Earth years have yet to pass. 
+${birthday - this.mercuryAge} Mercury years have yet to pass. 
+${birthday - this.venusAge} Venus years have yet to pass. 
+${birthday - this.marsAge} Mars years have yet to pass. 
+${birthday - this.jupiterAge} Jupiter years have yet to pass.`
   };
 }
