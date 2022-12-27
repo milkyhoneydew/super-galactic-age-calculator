@@ -17,6 +17,6 @@ ${this.jupiterAge - birthday} Jupiter years have passed.`
   };
 
   yearsUntilBirthday(birthday) {
-
-  }
+    return `${(birthday - this.age).toString()} Earth years have yet to pass.`
+  };
 }
