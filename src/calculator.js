@@ -15,4 +15,8 @@ ${this.venusAge - birthday} Venus years have passed.
 ${this.marsAge - birthday} Mars years have passed. 
 ${this.jupiterAge - birthday} Jupiter years have passed.`
   };
+
+  yearsUntilBirthday(birthday) {
+
+  }
 }
