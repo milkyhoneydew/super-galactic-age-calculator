@@ -12,7 +12,7 @@ describe('Calculator', () => {
 
   test('should determine how many years have passed since the inputted birthday age', () => {
     const spacePerson = new Calculator(56);
-    expect(spacePerson.yearsSinceBirthday(43)).toEqual("13 Earth years have passed. \n54.16 Mercury years have passed. \n8.06 Venus years have passed. \n6.91 Mars years have passed. \n1.09 Jupiter years have passed.")
+    expect(spacePerson.yearsSinceBirthday(43)).toEqual(spacePerson.yearsPassed["13", "54.16", "20.96", "6.91", "1.09"])
   })
 
 // test('should determine how many years have yet to pass until an inputted birthday age', () => {  
