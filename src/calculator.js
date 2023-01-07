@@ -9,18 +9,18 @@ export class Calculator {
   };
 
   yearsSinceBirthday(birthday) {
-    return `${(this.age - birthday).toString()} Earth years have passed. 
-${this.mercuryAge - birthday} Mercury years have passed. 
-${this.venusAge - birthday} Venus years have passed. 
-${this.marsAge - birthday} Mars years have passed. 
-${this.jupiterAge - birthday} Jupiter years have passed.`
-  };
-
-  yearsUntilBirthday(birthday) {
-    return `${(birthday - this.age).toString()} Earth years have yet to pass. 
-${birthday - this.mercuryAge} Mercury years have yet to pass. 
-${birthday - this.venusAge} Venus years have yet to pass. 
-${birthday - this.marsAge} Mars years have yet to pass. 
-${birthday - this.jupiterAge} Jupiter years have yet to pass.`
-  };
+    //     return `${(this.age - birthday).toString()} Earth years have passed. 
+    // ${(this.age - birthday) / .24} Mercury years have passed. 
+    // ${(this.age - birthday) / .62} Venus years have passed. 
+    // ${(this.age - birthday) / 1.88} Mars years have passed. 
+    // ${(this.age - birthday) / 11.86} Jupiter years have passed.`;
+      }
+    
+    //   yearsUntilBirthday(birthday) {
+    //     return `${(birthday - this.age).toString()} Earth years have yet to pass. 
+    // ${birthday - this.mercuryAge} Mercury years have yet to pass. 
+    // ${birthday - this.venusAge} Venus years have yet to pass. 
+    // ${birthday - this.marsAge} Mars years have yet to pass. 
+    // ${birthday - this.jupiterAge} Jupiter years have yet to pass.`;
+    //   }
 }

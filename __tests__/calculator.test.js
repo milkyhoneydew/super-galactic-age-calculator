@@ -11,12 +11,12 @@ describe('Calculator', () => {
   });
 
   test('should determine how many years have passed since the inputted birthday age', () => {
-    const spacePerson = new Calculator(75);
-    expect(spacePerson.yearsSinceBirthday(50)).toEqual("25 Earth years have passed. \n-32 Mercury years have passed. \n-3.5 Venus years have passed. \n91 Mars years have passed. \n839.5 Jupiter years have passed.")
+    const spacePerson = new Calculator(56);
+    expect(spacePerson.yearsSinceBirthday(43)).toEqual("13 Earth years have passed. \n54.16 Mercury years have passed. \n8.06 Venus years have passed. \n6.91 Mars years have passed. \n1.09 Jupiter years have passed.")
   })
 
-  test('should determine how many years have yet to pass until an inputted birthday age', () => {
-    const spacePerson = new Calculator(75);
-    expect(spacePerson.yearsUntilBirthday(100)).toEqual("25 Earth years have yet to pass. \n82 Mercury years have yet to pass. \n53.5 Venus years have yet to pass. \n-41 Mars years have yet to pass. \n-789.5 Jupiter years have yet to pass.")
-  })
+// test('should determine how many years have yet to pass until an inputted birthday age', () => {  
+  //   const spacePerson = new Calculator(56);
+  //   expect(spacePerson.yearsUntilBirthday(61)).toEqual("5 Earth years have yet to pass. \n20.83 Mercury years have yet to pass. \n20.96 Venus years have yet to pass. \n2.65 Mars years have yet to pass. \n.42 Jupiter years have yet to pass.")
+  // })
 });
