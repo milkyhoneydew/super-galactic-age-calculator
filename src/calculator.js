@@ -10,7 +10,7 @@ export class Calculator {
 
   yearsSinceBirthday(birthday) {
     this.yearsPassed = [];
-    this.yearsPassed.push(this.age - birthday).toString();
+    this.yearsPassed.push((this.age - birthday).toString());
     let mercury = ((this.age - birthday) / .24).toString();
     let mercurySlice = mercury.slice(0, (mercury.indexOf(".")) + 3);
     this.yearsPassed.push(mercurySlice);
@@ -23,20 +23,13 @@ export class Calculator {
     let jupiter = ((this.age - birthday) / 11.86).toString();
     let jupiterSlice = jupiter.slice(0, (jupiter.indexOf(".")) + 3);
     this.yearsPassed.push(jupiterSlice);
+  };
+
+  yearsUntilBirthday(birthday) {
+    // this.yearsUntil = [];
+    // this.yearsUntil.push((birthday - this.age).toString());
+    // let mercury = ((birthday - this.age) * .24)
   }
-  // yearsSinceBirthday(birthday) {
-  //       return `${(this.age - birthday).toString()} Earth years have passed. 
-  //   ${((this.age - birthday) / .24).toString.slice(0, (indexOf(".")) + 3)} Mercury years have passed. 
-  //   ${((this.age - birthday) / .62).toFixed(2)} Venus years have passed. 
-  //   ${((this.age - birthday) / 1.88).toFixed(2)} Mars years have passed. 
-  //   ${((this.age - birthday) / 11.86).toFixed(2)} Jupiter years have passed.`;
-  //     }
-    
-    //   yearsUntilBirthday(birthday) {
-    //     return `${(birthday - this.age).toString()} Earth years have yet to pass. 
-    // ${birthday - this.mercuryAge} Mercury years have yet to pass. 
-    // ${birthday - this.venusAge} Venus years have yet to pass. 
-    // ${birthday - this.marsAge} Mars years have yet to pass. 
-    // ${birthday - this.jupiterAge} Jupiter years have yet to pass.`;
-    //   }
+ 
+  
 }
